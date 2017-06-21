@@ -1,0 +1,101 @@
+body {
+  background-color: #f5f5f2;
+}
+
+h1 {
+  margin-bottom: 45px;
+}
+
+table {
+  width: 100%;
+  margin: 30px 0;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid  #a6a6a6;
+  font-size: 18px;
+  text-align: center;
+  background-color: #f5f5f2;
+}
+
+.game-box {
+  margin-top: 25px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+}
+
+.message {
+  font-size: 18px;
+}
+
+.form-group {
+  margin-top: 9px;
+}
+
+.form-group > label {
+  padding-left: 23px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.hint-active {
+  color: #cc7a00;
+  cursor: pointer;
+}
+
+.hint-inactive {
+  display: none;
+  color: #D4D4D4;
+  cursor:not-allowed;
+}
+
+.hint {
+  background-color: #F9B300;
+}
+
+.correct {
+  background-color: #00D60F;
+}
+
+.error {
+  color: red;
+  font-weight: bold;  
+}
+
+.form-error {
+  color: red;
+  background-color:  #ff9999;
+}
+
+.endgame {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.new-game {
+  left: 0;
+  top: 50%;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.new-game > h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.new-game > button {
+  font-size: 19px;
+  background-color: #FF7707;
+  padding: 10px 40px;
+  border-color: #FF7707;
+}
